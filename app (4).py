@@ -528,7 +528,7 @@ def main():
         st.markdown("")
         st.button("Importar comentarios", on_click=cambiar_pagina, args=("Comunidad",),
                   use_container_width=True)
-        st.caption("ComuniGuard · Espacio de Pau y Majo")
+        st.caption("ComuniGuard · Espacio seguro")
 
     pagina = st.session_state.pagina
     es_demo = st.session_state.modo == "demostracion"
